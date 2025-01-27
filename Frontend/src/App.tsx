@@ -1,35 +1,26 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import axios from 'axios'
 
 function App() {
    
-  const [count] = useState(0)
+  const [code, setCode] = useState("")
+  const [output, setOutput] = useState("")
+
+  const handleCodeInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setCode(e.target.value)
+  } 
+
+  const handleSubmit = async () => {
+    const result = await axios.post('http://127.0.0.1:1010/', { code })
+    setOutput(result.data)
+  }
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => axios.get('http://127.0.0.1:1010/')}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <input type="text" name="code" id="code" onInput={handleCodeInput}/>
+      <button type="submit" onClick={handleSubmit}>submit</button>
+      <pre style={{marginTop: 20}}>{output}</pre>
     </>
   )
 }
