@@ -1,0 +1,42 @@
+{
+    "Introduction": {
+        "0" : "TP : Welcome to Konaha - Village Hidden in the leaf, A place where people learn programming peacefully. We are going to begin the journey of a boy who's going to become Coder Hokage that never seen by Konaha and Today is graduation test in our village academy where our beloved Naruto is giving his test",
+        "1" : "TP : So Lets Go there!!",
+        "2" : "Iruka Sensei : Today is your Genin Coder graduation exam. For your final exam, you must each execute your task.",
+        "3" : "",
+        "4" : "",
+        "5" : "Hokage : Useless!!",
+        "6" : "Naruto : Sensei, Slurrrrrp, Ichiraku Ramen is my all time favourite",
+        "7" : "Iruka Sensei : Naruto, you know that who are the Coder Hokages",
+        "8" : "Naruto : Yahhh, I know",
+        "9" : "Iruka Sensei : I mean, you do know who Lord Hokage is, Right?",
+        "10" : "Naruto : Yahhh, because I am going to become one of them very soon.",
+        "11" : "Naruto : I am going to surpass everyone of them who came before me and become the best Coder Hokage one day"
+    },
+    "Level1" : {
+        "Mizuki0" : "Mizuki : Naruto!",
+        "Naruto0" : "Naruto : Mizuki Sensei!!",
+        "Mizuki1" : "Mizuki : I want to ask you that do you wanna come with me for hangout?",
+        "Mizuki2" : "Mizuki : Naruto, Do you know that there is a scroll in Hokage's office?",
+        "Naruto1" : "Naruto : A scroll in Hokage's office!!",
+        "Mizuki3" : "Mizuki : I hear that there is a secret of shadow clone jutsu in it",
+        "Naruto2" : "Naruto : A shadow clone jutsu!!",
+        "Mizuki4" : "Mizuki : Ohh! I forgot that I have some work to do. See ya!",
+        "Naruto3" : "Naruto : A scroll that has secret of shadow clone jutsu.",
+        "Naruto4" : "Naruto : This is Wrong but, I really want to graduate",
+        "Mizuki5" : "Mizuki : I knew that, you can do it",
+        "Iruka Sensei0" : "Iruka Sensei : Naruto!!! What are you doing? You stole the scroll from Hokage's office!!",
+        "Naruto5" : "Naruto : Wait Sensei! I just want to learn the secret of shadow clone jutsu and I got it!",
+        "Naruto6" : "Naruto : If I show you that I have mastered this technique, You will have to let me graduate",
+        "Iruka Sensei1" : "Iruka Sensei : Naruto, you have to use \"print\" function to create a shadow clone.",
+        "Level0" : "Level0",
+        "Mizuke":"Mizuke : I want that scroll any how !!!",
+        "Iruka Sensei2":"Iruka Sensei : AAAAAhhhh !!!",
+        "Naruto7":"Naruto : senseiiiiii !!!",
+        "Naruto8":"Naruto : I'll return the pain thousand times over!!",
+        "Naruto9":"Naruto : Multi shadow clone jutsu .",
+        "Level1":"Level1",
+        "Iruka Sensei3":"Iruka Sensei : Finally, you graduated Naruto."
+    }
+
+}

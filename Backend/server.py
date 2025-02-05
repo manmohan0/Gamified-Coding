@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, json, request
 from flask_cors import CORS
 import os
 import subprocess
@@ -18,8 +18,17 @@ def index():
         file.write(code)
     
     output = subprocess.run(["python", file_path], capture_output=True, text=True)
-    
-    return output.stdout
+    if output.stdout == '':
+        return output.stderr
+    else:
+        return output.stdout
+
+@app.route('/dialogues')
+def dialogues():
+    with open(os.getcwd() + '/Dialogues.json') as Dialogues:
+        data = json.load(Dialogues)
+        Introduction = data["Introduction"]
+    return Introduction
 
 if __name__ == "__main__":
     app.run(port=1010)

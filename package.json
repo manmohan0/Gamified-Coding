@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/recoil": "^0.0.1",
+    "recoil": "^0.7.7"
+  }
+}
